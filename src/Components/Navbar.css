@@ -1,0 +1,91 @@
+/* Group2 */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+.clip-contents {
+    overflow: hidden;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar {
+    padding: 18px 63px 18px 63px;
+    box-sizing: border-box;
+    border-radius: 17px;
+    background: linear-gradient(
+        90deg,
+        rgba(242, 251, 216, 1) 100%,
+        rgba(238, 231, 84, 0.68) 0%
+    );
+    position: absolute;
+    width: 1065px;
+    height: 68px;
+    top: 33px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    backdrop-filter: blur(50px);
+}
+
+a {
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    color: rgba(62, 62, 62, 1);
+    width: auto;
+    height: 29px;
+    word-wrap: break-word;
+    margin: auto;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* .txt-867 {
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    color: rgba(62, 62, 62, 1);
+    width: 113px;
+    height: 29px;
+    word-wrap: break-word;
+    margin-right: 79px;
+    cursor: pointer;
+}
+
+.txt-324 {
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    color: rgba(62, 62, 62, 1);
+    width: 121px;
+    height: 29px;
+    word-wrap: break-word;
+    margin-right: 74px;
+    cursor: pointer;
+}
+
+.txt-839 {
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    color: rgba(62, 62, 62, 1);
+    width: 169px;
+    height: 29px;
+    word-wrap: break-word;
+    margin-right: 61px;
+    cursor: pointer;
+}
+
+.txt-262 {
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    color: rgba(62, 62, 62, 1);
+    width: 76px;
+    height: 29px;
+    word-wrap: break-word;
+    cursor: pointer;
+} */
