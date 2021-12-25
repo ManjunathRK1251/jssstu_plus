@@ -23,8 +23,10 @@
     position: absolute;
     width: 1065px;
     height: 68px;
-    left: 238px;
     top: 33px;
+    left: 0;
+    right: 0;
+    margin: auto;
     backdrop-filter: blur(50px);
 }
 
