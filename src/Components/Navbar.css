@@ -15,8 +15,8 @@
     border-radius: 17px;
     background: linear-gradient(
         90deg,
-        rgba(242, 251, 216, 0.568) 100%,
-        rgba(238, 230, 84, 0.89) 0%
+        rgba(242, 251, 216, 0.432) 100%,
+        rgb(238, 230, 84) 0%
     );
     position: absolute;
     width: 1065px;
@@ -25,7 +25,8 @@
     left: 0;
     right: 0;
     margin: auto;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
+
 }
 
 a {
@@ -41,6 +42,10 @@ a {
     text-decoration: none;
 }
 
+/* a:hover {
+  color: red;    
+} */
+
 .Navbar-bg {
   /* background-color: rgba(196, 196, 196, 1); */
   width: 100%;
@@ -54,4 +59,10 @@ a {
   background-repeat: no-repeat;
   /* background-position: 500px 0 0 25px; */
   /* background-size: initial; */
+}
+
+a:hover {
+  /* color: white; */
+  font-size: 30px;
+  text-decoration: underline;
 }
