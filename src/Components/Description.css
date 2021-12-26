@@ -1,14 +1,15 @@
-/* Rectangle6 */
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Righteous&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap');
 
 .rectangle {
     position: absolute;
     width: auto;
-    height: 300px;
+    height: 20.5rem;
     left: 0;
     right: 0;
     margin: 20px;
+    margin-bottom: 0;
     bottom: 0;
 
     background: radial-gradient(
@@ -16,35 +17,35 @@
         rgba(0, 148, 255, 0.13) 0%,
         rgba(254, 254, 254, 0.13) 100%
     );
-    border-radius: 31px;
+    border-radius: 1.9375rem;
 }
 
 .txt-why {
-    font-size: 62px;
+    font-size: 3.875rem;
     font-family: Merriweather Sans, sans-serif;
     font-weight: 400;
     color: rgba(0, 0, 0, 1);
-    width: 150px;
-    height: 78px;
+    width: 9.375rem;
+    height: 4.875rem;
     word-wrap: break-word;
-    position: absolute;
-    top: 55px;
-    left: 14px;
+    position: relative;
+    top: 15%;
+    left: 1%;
 }
 
 .txt-jssstu {
     word-wrap: break-word;
-    position: absolute;
-    width: 671px;
-    height: 222px;
-    left: 14px;
-    top: 80px;
+    position: relative;
+    width: 41.9375rem;
+    height: 13.875rem;
+    left: 1%;
+    top: 5%;
 
     font-family: Righteous;
     font-style: normal;
     font-weight: normal;
-    font-size: 146px;
-    line-height: 181px;
+    font-size: 9.125rem;
+    line-height: 11.3125rem;
 
     color: #53a5e0;
 }
@@ -53,16 +54,18 @@
     position: absolute;
     width: auto;
     text-indent: 2em;
-    left: 709px;
-    margin: 0;
-    top: 30px;
+    left: 43.75rem;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+    top: 0;
+    bottom: 0;
 
-    font-family: Righteous, display;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 35px;
-    letter-spacing: 1px;
+    font-family: "Josefin Sans", sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2.1875rem;
+    letter-spacing: 0.0625rem;
 
     color: #000000;
 }
