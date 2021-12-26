@@ -4,7 +4,7 @@ import "./jssstu.css";
 export default function Jssstu() {
   return (
     <div class="logo">
-      <p className="jssstu">JSSSTU</p>;
+      <p className="jssstu">JSSSTU</p>
       <div className="moto">
         <p>
           <span>E</span>ducate
