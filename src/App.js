@@ -1,6 +1,7 @@
 import Navbar from "./Components/Navbar";
 import Description from "./Components/Description";
 import Jssstu from "./Components/JSSSTU_logo/jssstu";
+import LoginPage from "./LoginPage/loginpage";
 // import navbar_img from "./Images/navbar_bg.jpg"
 
 function App() {
@@ -8,9 +9,10 @@ function App() {
     <div className="home-page">
       {/* <h2>Let's get started!</h2> */}
       {/* <img src={navbar_img} alt="" /> */}
-      <Navbar />
+      {/* <Navbar />
       <Jssstu />
-      <Description />
+      <Description /> */}
+      <LoginPage></LoginPage>
     </div>
   );
 }

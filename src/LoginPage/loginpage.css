@@ -1,0 +1,102 @@
+
+
+.login-page-bg {
+    background-image: url('../Images/loginpage_bg.jpeg');
+    /* width: 100%; */
+    height: 72rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* filter: blur(5px); */
+}
+
+.login-container {
+    position: relative;
+    top: 140px;
+    left: 550px;
+    background: linear-gradient(
+        144.75deg,
+        rgba(254, 254, 254, 0.56) 1.3%,
+        rgba(196, 196, 196, 0.27) 101.72%
+      );
+      box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+      width: 475px;
+      height: 563px;
+      border-radius: 38px;  /* Rectangle15 */
+      backdrop-filter: blur(5px);
+}
+
+.email input{
+    position: relative;
+    left: 35px;
+    top: 120px;
+    background-color: rgba(255, 255, 255, 0.65);
+    width: 410px;
+    height: 94px;
+    border-radius: 16px;
+    border: none;
+}
+
+.password {
+    position: relative;
+    left: 35px;
+    top: 200px;
+    background-color: rgba(255, 255, 255, 0.65);
+    width: 410px;
+    height: 94px;
+    border-radius: 16px;
+}
+
+.login-btn {
+    position: relative;
+    left: 125px;
+    top: 190px;
+    background-color: rgba(26, 159, 255, 0.65);
+    width: 222px;
+    height: 74px;
+    border-radius: 16px;
+}
+
+.email-text {
+    position: relative;
+    left: 40px;
+    top: 120px;
+    font-size: 31px;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    color: rgba(46, 42, 56, 1);
+    width: 108px;
+    height: 45px;
+    word-wrap: break-word;
+}
+
+.pw-text {
+    position: relative;
+    left: 40px;
+    top: 200px;
+    font-size: 31px;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    color: rgba(46, 42, 56, 1);
+    width: 108px;
+    height: 45px;
+    /* word-wrap: break-word; */
+}
+
+.pw-field {
+   position: relative;
+    top: -50px;
+    /* left: 10px; */
+} 
+
+.login-btn p {
+    position: relative;
+    top: 18px;
+    left: 65px;
+    font-size: 31px;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    color: rgb(230, 229, 233);
+    width: 108px;
+    height: 45px;
+}

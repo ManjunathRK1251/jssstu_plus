@@ -1,7 +1,8 @@
-body {
+html, body {
   margin: 0;
   background-color: #f7f7f7;
   overflow: auto;
+  height: 100%;
 }
 
 .home-page {
