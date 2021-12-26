@@ -21,14 +21,14 @@ span {
   /* margin-left: 10px; */
   /* float: left; */
   position: relative;
-  left: 22.5rem;
-  top: 6.75rem;
-  font-size: 2rem;
+  left: 24.5rem;
+  top: 5.75rem;
+  font-size: 2.25rem;
   font-family: Righteous, display;
   font-weight: 400;
   letter-spacing: 0.0375rem;
   color: rgba(0, 87, 95, 1);
-  width: 9.8125rem;
+  width: 10.9125rem;
   height: 2.8125rem;
   margin: 0px;
   word-wrap: break-word;
@@ -36,16 +36,16 @@ span {
 }
 .jssstu {
   position: absolute;
-  font-size: 9.875rem;
+  font-size: 10.875rem;
   /* font-family: Righteous, display; */
   font-family: "Righteous", cursive;
   font-weight: 400;
   color: rgba(242, 142, 25, 1);
-  width: 36.3125rem;
+  width: 39.3125rem;
   height: 7.625rem;
   word-wrap: break-word;
   text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.25);
-  top: 4.375rem;
+  top: 3.375rem;
 }
 
 p {

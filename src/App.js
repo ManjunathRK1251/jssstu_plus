@@ -1,7 +1,7 @@
 import Navbar from "./Components/Navbar";
 import Description from "./Components/Description";
 import Jssstu from "./Components/JSSSTU_logo/jssstu";
-import navbar_img from "./Images/navbar_bg.jpg"
+// import navbar_img from "./Images/navbar_bg.jpg"
 
 function App() {
   return (
