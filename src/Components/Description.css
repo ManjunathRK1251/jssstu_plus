@@ -1,6 +1,6 @@
-/* Rectangle6 */
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Righteous&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
 
 .rectangle {
   position: absolute;
@@ -50,6 +50,7 @@
 }
 
 .txt-description {
+
   position: absolute;
   width: auto;
   text-indent: 2em;
