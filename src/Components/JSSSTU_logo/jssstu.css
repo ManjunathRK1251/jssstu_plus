@@ -16,6 +16,11 @@
 span {
   color: rgba(242, 142, 25, 1);
 }
+
+.Full-logo {
+  position: relative;
+  top: -200px;
+}
 .moto {
   text-align: left;
   /* margin-left: 10px; */
