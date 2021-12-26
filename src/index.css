@@ -1,5 +1,21 @@
 body {
   margin: 0;
-  /* background-color: #f7f7f7; */
-  /* background-color: orange; */
+  background-color: #f7f7f7;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 480px) {
+  .text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .text {
+    font-size: 32px;
+  }
 }
