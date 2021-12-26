@@ -1,42 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
 .clip-contents {
-  overflow: auto;
+    overflow: hidden;
 }
 
 .flex-row {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .navbar {
-  padding: 1.125rem 3.9375rem 1.125rem 3.9375rem;
-  box-sizing: border-box;
-  border-radius: 17px;
-  background: linear-gradient(
-    90deg,
-    rgba(242, 251, 216, 1) 100%,
-    rgba(238, 231, 84, 0.68) 0%
-  );
-  position: absolute;
-  width: 66.5625em;
-  height: 68px;
-  top: 33px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  backdrop-filter: blur(50px);
+    padding: 18px 63px 18px 63px;
+    box-sizing: border-box;
+    border-radius: 17px;
+    background: linear-gradient(
+        90deg,
+        rgba(242, 251, 216, 0.801) 100%,
+        rgba(238, 230, 84, 0.89) 0%
+    );
+    position: absolute;
+    width: 1065px;
+    height: 68px;
+    top: 33px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    backdrop-filter: blur(50px);
 }
 
 a {
-  font-size: 25px;
-  font-family: Roboto, sans-serif;
-  font-weight: 700;
-  color: rgba(62, 62, 62, 1);
-  width: auto;
-  height: 29px;
-  word-wrap: break-word;
-  margin: auto;
-  cursor: pointer;
-  text-decoration: none;
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    color: rgba(62, 62, 62, 1);
+    width: auto;
+    height: 29px;
+    word-wrap: break-word;
+    margin: auto;
+    cursor: pointer;
+    text-decoration: none;
 }

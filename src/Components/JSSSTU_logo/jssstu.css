@@ -3,6 +3,8 @@
 .logo {
   position: absolute;
   /* width: 6.25rem; */
+  top: 200px;
+  right: 4.375rem;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -19,8 +21,8 @@ span {
   /* margin-left: 10px; */
   /* float: left; */
   position: relative;
-  left: 360px;
-  top: 108px;
+  left: 22.5rem;
+  top: 6.75rem;
   font-size: 2rem;
   font-family: Righteous, display;
   font-weight: 400;
@@ -34,7 +36,7 @@ span {
 }
 .jssstu {
   position: absolute;
-  font-size: 158px;
+  font-size: 9.875rem;
   /* font-family: Righteous, display; */
   font-family: "Righteous", cursive;
   font-weight: 400;
@@ -43,7 +45,7 @@ span {
   height: 7.625rem;
   word-wrap: break-word;
   text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.25);
-  top: 70px;
+  top: 4.375rem;
 }
 
 p {
