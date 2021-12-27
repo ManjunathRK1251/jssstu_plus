@@ -57,3 +57,10 @@ p {
   margin-bottom: 0px;
   margin-top: 0px;
 }
+
+.countPart {
+  font-size: 30px;
+  color: black;
+  position: relative;
+  top: 410px;
+}
