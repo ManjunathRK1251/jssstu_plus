@@ -1,3 +1,4 @@
+    /* Background-Image */
 .login-page-bg {
     background-image: url("../Images/loginpage_bg.jpeg");
     position: fixed;
@@ -8,6 +9,7 @@
     background-size: cover;
 }
 
+    /* Container */
 .login-container {
     position: fixed;
     top: 50%;
@@ -26,6 +28,8 @@
     border-radius: 38px;
     backdrop-filter: blur(5px);
 }
+
+    /* Email */
 
 input[type="email"] {
     border: none;
@@ -60,6 +64,8 @@ input[type="email"] {
     word-wrap: break-word;
 }
 
+    /* Password */
+
 input[type="password"] {
     border: none;
     width: 100%;
@@ -90,25 +96,30 @@ input[type="password"] {
     height: 45px;
 }
 
-.login-btn {
+    /* Login Button */
+
+button {
+    background: none;
+    border: 2px solid;
+    font-size: 25px;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
     position: relative;
-    left: 125px;
-    top: 180px;
-    background-color: rgba(26, 159, 255, 0.65);
-    width: 222px;
-    height: 74px;
-    border-radius: 16px;
+    left: 140px;
+    top: 160px;
     cursor: pointer;
+
+    border-radius: 16px;
+
+    color: black;
+    transition: 0.25s;
+    font-family: Arial, sans-serif;
 }
 
-.login-btn p {
-    position: relative;
-    top: 18px;
-    left: 65px;
-    font-size: 31px;
-    font-family: Arial, sans-serif;
-    font-weight: 700;
-    color: rgb(230, 229, 233);
-    width: 108px;
-    height: 45px;
+button:hover,
+button:focus {
+    border-color: rgba(26, 159, 255, 0.65);
+    color: #fff;
+    background-color: rgba(26, 159, 255, 0.65);
 }
