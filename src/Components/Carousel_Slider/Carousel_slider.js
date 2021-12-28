@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 import "./styles.css";
-import img1 from "../../Images/loginpage_bg.jpeg";
+import img1 from "../../Images/pic1.jpg";
 // import img1 from " ";
 // const img1 = "https://github.com/ManjunathRK1251/jssstu_plus/blob/62534bbcdea09950f42868b083717da5f492d542/src/Images/navbar_bg.jpg";
 // const img1 = "https://i.pinimg.com/originals/87/ae/83/87ae8360cfe56fda3b49e609eb3b7c25.jpg";
