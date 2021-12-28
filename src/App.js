@@ -11,10 +11,11 @@ function App() {
   return (
     <div className="home-page">
       {/* <Navbar /> */}
+      {/* <CarouselSlider /> */}
       {/* <HomePage /> */}
-      <CarouselSlider />
 
-      {/* <LoginPage></LoginPage> */}
+
+      <LoginPage></LoginPage>
     </div>
   );
 }

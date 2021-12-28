@@ -10,8 +10,8 @@
     left: 0;
     right: 0;
     margin: 20px;
-    margin-bottom: 0;
-    bottom: 0;
+    /*  margin-bottom: 0; */
+    /* bottom: 0; */
 
     background: radial-gradient(
         48.34% 314.7% at 48.34% 40.37%,
