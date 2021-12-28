@@ -7,12 +7,13 @@ import "./SVGs.css";
 export default function Jssstu() {
     return (
         <div className="Full-logo">
-            <div>
-                <p className="countPart">
+            {/* <div className="countPart">
+                <p>
                     <CountUp start={0} end={1320} duration={4} />
                 </p>
-            </div>
+            </div> */}
             <div>
+
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="209"
@@ -26,6 +27,11 @@ export default function Jssstu() {
                         d="M190.282 55H-45V0h235.282L209 27.496 190.282 55z"
                     />
                 </svg>
+                <div className="countPart">
+                    <p>
+                        <CountUp start={0} end={1320} duration={4} />
+                    </p>
+                </div>
             </div>
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -45,13 +51,13 @@ export default function Jssstu() {
                 <p className="jssstu">JSSSTU</p>
                 <div className="moto">
                     <p>
-                        <span>E</span>ducate
+                        <span class="E">E</span>ducate
                     </p>
                     <p>
-                        <span>E</span>levate
+                        <span class="E">E</span>levate
                     </p>
                     <p>
-                        <span>E</span>nlighten
+                        <span class="E">E</span>nlighten
                     </p>
                 </div>
             </div>

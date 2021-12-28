@@ -13,7 +13,7 @@
   text-align: center;
 }
 
-span {
+.E {
   color: rgba(242, 142, 25, 1);
 }
 
@@ -62,5 +62,9 @@ p {
   font-size: 30px;
   color: black;
   position: relative;
-  top: 410px;
+  top: 365px;
+  left: 240px;
+  font-family: Righteous, display;
+  font-size: 45px;
 }
+
