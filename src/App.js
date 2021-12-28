@@ -8,12 +8,12 @@ import CarouselSlider from "./Components/Carousel_Slider/Carousel_slider";
 function App() {
   return (
     <div className="home-page">
-      <CarouselSlider></CarouselSlider>
-      {/* <h2>Let's get started!</h2> */}
-      {/* <img src={navbar_img} alt="" /> */}
-      {/* <Navbar />
+      <Navbar />
+
       <Jssstu />
-      <Description /> */}
+
+      {/* <CarouselSlider /> */}
+      <Description />
       {/* <LoginPage></LoginPage> */}
     </div>
   );

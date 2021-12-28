@@ -1,10 +1,9 @@
 import "./Item.css";
-import img1 from "C:/Users/Manju/Desktop/JSSSTU+/jssstu_plus/src/Images/navbar_bg.jpg";
+// import img1 from "C:/Users/Manju/Desktop/JSSSTU+/jssstu_plus/src/Images/navbar_bg.jpg";
 
-export default function Item() {
+export default function Item(props) {
   return (
-    <div class="Item">
-      <img src={img1} alt="" />
-    </div>
+
+    <img src={props.ImgSrc} alt="" style={{ width: "400px", height: "300px" }} />
   );
 }

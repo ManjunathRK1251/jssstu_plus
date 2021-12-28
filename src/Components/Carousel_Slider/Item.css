@@ -1,19 +1,7 @@
-.Item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 250px;
-  width: 100%;
-  /* background-color: #683bb7; */
-  color: #fff;
-  margin: 15px;
-  font-size: 4em;
-  border-radius: 20px;
-  padding-right: 100px;
-}
 
-/* img {
-  height: 250px;
-  width: 100%;
-  border-radius: 20px;
-} */
+
+  img {
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+  }
