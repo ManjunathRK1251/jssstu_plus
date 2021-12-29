@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
 .rectangle-SQ {
     position: absolute;
     right: 12%;
@@ -30,6 +32,7 @@
 h2 {
     margin: 0;
     font-family: Arial;
+    color: #fefefe;
 }
 
 .JSSSTU-logo {
@@ -37,6 +40,7 @@ h2 {
     height: 100px;
     position: absolute;
     top: 16px;
+    margin: 0;
 }
 
 .title {
@@ -55,8 +59,8 @@ h2 {
     position: relative;
     background-color: rgba(251, 251, 251, 1);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 203px;
-    height: 189px;
+    width: 253px;
+    height: 269px;
     border-radius: 18px;
     top: 300px;
     margin: 40px;
@@ -70,16 +74,19 @@ table {
 
 h1 {
     position: relative;
-    top: 200px;
-    font-family: Arial;
+    top: 180px;
+    font-family: Rubik, sans-serif;
+    color: rgba(0, 0, 0, 0.54);
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    margin-top: 50px;
+    width: 120px;
+    height: 120px;
 }
 
 svg {
-    width: 100px;
-    height: 100px;
+    margin-top: 50px;
+    width: 120px;
+    height: 120px;
 }
