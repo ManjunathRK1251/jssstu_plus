@@ -29,9 +29,10 @@
 
 h2 {
     margin: 0;
+    font-family: Arial;
 }
 
-img {
+.JSSSTU-logo {
     width: 480px;
     height: 100px;
     position: absolute;
@@ -70,4 +71,15 @@ table {
 h1 {
     position: relative;
     top: 200px;
+    font-family: Arial;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+svg {
+    width: 100px;
+    height: 100px;
 }
