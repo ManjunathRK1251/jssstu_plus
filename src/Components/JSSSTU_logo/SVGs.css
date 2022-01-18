@@ -3,7 +3,7 @@
     width: 15.875rem;
     height: 3.4375rem;
     right: 0;
-    top: 18.75rem;
+    top: 15.75rem;
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
@@ -12,16 +12,16 @@
     width: 15.875rem;
     height: 3.4375rem;
     right: 0;
-    top: 23.125rem;
+    top: 20.125rem;
     transform: matrix(-1, 0, 0, 1, 0, 0);
-    float: right;
+    /* float: right; */
 }
 
 .left1 {
     position: absolute;
     width: 15.875rem;
     height: 3.4375rem;
-    top: 18.75rem;
+    top: 15.75rem;
     left: 0;
 }
 
@@ -29,6 +29,6 @@
     position: absolute;
     width: 15.875rem;
     height: 3.4375rem;
-    top: 23.125rem;
+    top: 20.125rem;
     left: 0;
 }

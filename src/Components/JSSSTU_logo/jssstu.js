@@ -102,12 +102,14 @@ export default function Jssstu() {
                             d="M190.282 55H-45V0h235.282L209 27.496 190.282 55z"
                         />
                     </svg>
-                    <div className="countPartR2-txt">Alumni Strength</div>
+                    {/* <div className="countPartR2-txt">Alumni Strength</div> */}
                     <div className="countPartR2">
                         <p>
                             <CountUp start={0} end={25000} duration={2} />+
                         </p>
                     </div>
+                    <div className="countPartR2-txt">Alumni Strength</div>
+
                 </div>
             </div>
         </div>
