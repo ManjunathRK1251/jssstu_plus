@@ -13,8 +13,8 @@ function App() {
         <div className="home-page">
             {/* <Navbar /> */}
             {/* <CarouselSlider /> */}
-            {/* <HomePage /> */}
-            <FAQSection />
+            <HomePage />
+            {/* <FAQSection /> */}
 
             {/* <LoginPage></LoginPage> */}
         </div>
