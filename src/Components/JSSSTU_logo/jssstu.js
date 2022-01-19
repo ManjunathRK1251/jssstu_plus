@@ -109,7 +109,6 @@ export default function Jssstu() {
                         </p>
                     </div>
                     <div className="countPartR2-txt">Alumni Strength</div>
-
                 </div>
             </div>
         </div>

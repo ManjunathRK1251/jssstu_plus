@@ -6,7 +6,6 @@ import CarouselSlider from "./Components/Carousel_Slider/Carousel_slider";
 import HomePage from "./Homepage/homepage";
 import Navbar from "./Components/Navbar";
 import FAQSection from "./Components/FAQ/Faq";
-// import navbar_img from "./Images/navbar_bg.jpg"
 
 function App() {
     return (
