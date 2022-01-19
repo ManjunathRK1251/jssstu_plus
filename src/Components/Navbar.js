@@ -10,9 +10,9 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 export default function Navbar() {
     return (
         <BrowserRouter>
-            <div className="Navbar-bg">
+            {/* <div className="Navbar-bg">
                 <CarouselSlider />
-            </div>
+            </div> */}
             <div className="navbar">
                 <div className="flex-row">
                     {/* <a href="#About">About</a> */}

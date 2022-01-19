@@ -10,9 +10,9 @@ import FAQSection from "./Components/FAQ/Faq";
 function App() {
     return (
         <div className="home-page">
-            {/* <Navbar /> */}
             {/* <CarouselSlider /> */}
             <HomePage />
+            <Navbar />
             {/* <FAQSection /> */}
 
             {/* <LoginPage></LoginPage> */}
