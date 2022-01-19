@@ -36,7 +36,7 @@ export default function CarouselSlider() {
   return (
     <div className="Carousel-Slider">
       <div className="carousel-wrapper">
-        <Carousel breakPoints={breakPoints} enableAutoPlay autoPlaySpeed={1500} itemPadding={[10, 50]}>
+        <Carousel breakPoints={breakPoints} enableAutoPlay autoPlaySpeed={1500} itemPadding={[10, 50]} pagination={false}>
           <Item ImgSrc={img1}></Item>
           <Item ImgSrc={img2}></Item>
           <Item ImgSrc={img3}></Item>

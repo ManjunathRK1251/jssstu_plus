@@ -1,6 +1,6 @@
 .Carousel-Slider {
   position: relative;
-  
+  margin: 10px;
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
