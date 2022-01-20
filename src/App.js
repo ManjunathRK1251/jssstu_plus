@@ -9,14 +9,17 @@ import FAQSection from "./Components/FAQ/Faq";
 
 function App() {
     return (
-        <div className="home-page">
-            {/* <CarouselSlider /> */}
-            <HomePage />
-            <Navbar />
-            {/* <FAQSection /> */}
+        <Navbar />
+        // <div>
+        //     {/* <CarouselSlider /> */}
+        //     <Navbar />
 
-            {/* <LoginPage></LoginPage> */}
-        </div>
+        //     {/* <HomePage /> */}
+        //     {/* <Navbar /> */}
+        //     {/* <FAQSection /> */}
+
+        //     {/* <LoginPage></LoginPage> */}
+        // </div>
     );
 }
 
