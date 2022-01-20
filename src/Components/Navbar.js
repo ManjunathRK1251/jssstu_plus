@@ -10,12 +10,8 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 export default function Navbar() {
     return (
         <BrowserRouter>
-            {/* <div className="Navbar-bg">
-                <CarouselSlider />
-            </div> */}
             <div className="navbar">
                 <div className="flex-row">
-                    {/* <a href="#About">About</a> */}
                     <Link to="/">Home</Link>
                     <Link to="/academic">Academic</Link>
                     <Link to="/placement">Placement</Link>
@@ -23,12 +19,10 @@ export default function Navbar() {
                     <Link to="/faq">FAQ</Link>
                 </div>
             </div>
-            {/* <Routes>
+            <Routes>
                 <Route exact path='/' element={< HomePage />}></Route>
                 <Route exact path='/life-at-jssstu' element={< LoginPage />}></Route>
-            </Routes> */}
+            </Routes>
         </BrowserRouter>
-
-        // </div>
     );
 }
