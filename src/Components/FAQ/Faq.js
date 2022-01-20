@@ -10,12 +10,12 @@ export default function FAQSection() {
     return (
         <div>
             <img src={JSSSTU_logo} className="JSSSTU-logo" />
-            <div className="rectangle-SQ">
-                <h2>Submit a Question</h2>
+            {/* <div className="rectangle-SQ">
+                <h3>Submit a Question</h3>
             </div>
             <div className="rectangle-login">
-                <h2>Login</h2>
-            </div>
+                <h3>Login</h3>
+            </div> */}
             <center className="title">Hi! How can we help you?</center>
             <table>
                 <td>
