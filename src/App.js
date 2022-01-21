@@ -11,14 +11,14 @@ import LoginSignup from "./LoginPage/login_signup";
 function App() {
   return (
     <div className="home-page">
-      {/* <Navbar /> */}
+      <Navbar />
       {/* <CarouselSlider /> */}
       {/* <HomePage /> */}
 
       {/* <FAQSection /> */}
 
       {/* <LoginPage></LoginPage> */}
-      <LoginSignup></LoginSignup>
+      {/* <LoginSignup></LoginSignup> */}
     </div>
   );
 }
