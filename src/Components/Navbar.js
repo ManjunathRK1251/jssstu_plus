@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import HomePage from "../Homepage/homepage";
 import LoginPage from "../LoginPage/loginpage";
-import CarouselSlider from "../Components/Carousel_Slider/Carousel_slider";
+import FAQSection from "../Components/FAQ/Faq";
 // import "./background_img.css";
 // import navbar_img from "../Images/navbar_bg.jpg";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
@@ -12,7 +12,6 @@ export default function Navbar() {
         <BrowserRouter>
             <div className="navbar">
                 <div className="flex-row">
-                    {/* <a href="#About">About</a> */}
                     <Link to="/">Home</Link>
                     <Link to="/academic">Academic</Link>
                     <Link to="/placement">Placement</Link>
@@ -23,9 +22,8 @@ export default function Navbar() {
             <Routes>
                 <Route exact path='/' element={< HomePage />}></Route>
                 <Route exact path='/life-at-jssstu' element={< LoginPage />}></Route>
+                <Route exact path='/faq' element={<FAQSection />}></Route>
             </Routes>
         </BrowserRouter>
-
-        // </div>
     );
 }
