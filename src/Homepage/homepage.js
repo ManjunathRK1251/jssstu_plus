@@ -9,7 +9,6 @@ export default function HomePage() {
             <div className="Navbar-bg">
                 <CarouselSlider />
             </div>
-            {/* <Navbar /> */}
             <Jssstu />
             <Description />
         </div>
