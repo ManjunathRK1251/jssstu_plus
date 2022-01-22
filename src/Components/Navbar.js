@@ -7,6 +7,10 @@ import FAQSection from "../Components/FAQ/Faq";
 // import navbar_img from "../Images/navbar_bg.jpg";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import LoginSignup from "../LoginPage/login_signup";
+import Hostel from "./FAQ/hostel";
+import General from "./FAQ/General";
+import Placement from "./FAQ/placement";
+import Facilities from "./FAQ/facilities";
 
 export default function Navbar() {
     return (
@@ -24,6 +28,10 @@ export default function Navbar() {
                 <Route exact path='/' element={< HomePage />}></Route>
                 <Route exact path='/life-at-jssstu' element={< LoginSignup />}></Route>
                 <Route exact path='/faq' element={<FAQSection />}></Route>
+                <Route exact path='/hostel-faq' element={<Hostel />}></Route>
+                <Route exact path='/general-faq' element={<General />}></Route>
+                <Route exact path='/placement-faq' element={<Placement />}></Route>
+                <Route exact path='/facilities-faq' element={<Facilities />}></Route>
             </Routes>
         </BrowserRouter>
     );
