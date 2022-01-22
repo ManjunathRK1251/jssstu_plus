@@ -6,12 +6,12 @@ import CarouselSlider from "./Components/Carousel_Slider/Carousel_slider";
 import HomePage from "./Homepage/homepage";
 import Navbar from "./Components/Navbar";
 import FAQSection from "./Components/FAQ/Faq";
-import Hostel from "./Components/FAQ/Hostel";
+import Facilities from "./Components/FAQ/facilities";
 
 function App() {
     return (
-        // <Hostel />
-        <Navbar />
+        <Facilities />
+        // <Navbar />
         // <div>
         //     {/* <CarouselSlider /> */}
         //     <Navbar />
