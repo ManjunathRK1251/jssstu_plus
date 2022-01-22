@@ -14,7 +14,7 @@ export default function Navbar() {
             <div className="navbar">
                 <div className="flex-row">
                     <Link to="/">Home</Link>
-                    <Link to="/academic">Academic</Link>
+                    {/* <Link to="/academic">Academic</Link> */}
                     <Link to="/placement">Placement</Link>
                     <Link to="/life-at-jssstu">Life at JSSSTU</Link>
                     <Link to="/faq">FAQ</Link>
