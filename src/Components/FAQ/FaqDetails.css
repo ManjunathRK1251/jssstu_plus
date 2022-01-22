@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
+body{
+    margin-top: 150px;
+}
+
 .rectangle {
     position: relative;
     background-color: rgba(251, 251, 251, 1);
@@ -37,23 +41,12 @@
 }
 
 .menu-txt {
-    font-size: 35px;
+    font-size: 30px;
     font-family: "Rubik";
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    padding: 50px;
+    padding: 40px;
     border-radius: 20px;
-}
-
-.menu-txt-ans {
-    position: absolute;
-    top: 90px;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 35px;
-    font-family: "Rubik";
-    margin: 15px;
-    text-align: center;
 }
 
 section {
@@ -97,6 +90,7 @@ details summary:after {
     line-height: 0;
     margin-top: 0.75rem;
     right: 0;
+    /* left: 960px; */
     font-weight: 200;
     transform-origin: center;
     transition: 200ms linear;
