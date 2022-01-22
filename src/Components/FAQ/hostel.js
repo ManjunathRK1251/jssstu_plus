@@ -7,25 +7,21 @@ import "./FaqDetails.css";
 export default function Hostel() {
     var hostel = [
         {
-            id: 1,
-            "what is the curfew?": "it's 7:30 :",
+            "What is the curfew?": "It's 7:30 :",
         },
 
         {
-            id: 2,
-            "how many people in one room?": "4 in off-campus - 3 in on-campus",
+            "How many people in one room?": "4 in off-campus - 3 in on-campus",
         },
 
         {
-            id: 3,
-            "what kind of food will we get?": "South Indian and pure veg ",
+            "What kind of food will we get?": "South Indian and pure veg XD",
         },
         {
-            id: 4,
-            "are we allowed to go home whenever we want?":
-                "yeah, you just have to submit home letter",
+            "Are we allowed to go home whenever we want?":
+                "Yeah, you just have to submit home letter",
         },
-        { id: 5, "do we get hot water 24x7?": "yes" },
+        { "Do we get hot water 24x7?": "Yes" },
     ];
 
     return (
@@ -37,6 +33,23 @@ export default function Hostel() {
                 </div>
                 <div className="rectangle-txt">Hostel</div>
             </center>
+            <br />
+            <br />
+            <br />
+            {hostel.map((category) => {
+                return (
+                    <>
+                        <section className="menu-txt">
+                            <details>
+                                <summary>{Object.keys(category)}</summary>
+                                <p>{Object.values(category)}</p>
+                            </details>
+                        </section>
+                        <br />
+                    </>
+                );
+            })}
+            <br />
         </div>
     );
 }
