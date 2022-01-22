@@ -7,19 +7,21 @@ import HomePage from "./Homepage/homepage";
 import Navbar from "./Components/Navbar";
 import FAQSection from "./Components/FAQ/Faq";
 import LoginSignup from "./LoginPage/login_signup";
+import SignUp1 from "./LoginPage/Signup-1";
 
 function App() {
   return (
-    <div className="home-page">
-      <Navbar />
-      {/* <CarouselSlider /> */}
-      {/* <HomePage /> */}
+    // <div className="home-page">
+    //   <Navbar />
+    //   {/* <CarouselSlider /> */}
+    //   {/* <HomePage /> */}
 
-      {/* <FAQSection /> */}
+    //   {/* <FAQSection /> */}
 
-      {/* <LoginPage></LoginPage> */}
-      {/* <LoginSignup></LoginSignup> */}
-    </div>
+    //   {/* <LoginPage></LoginPage> */}
+    //   {/* <LoginSignup></LoginSignup> */}
+    // </div>
+    <SignUp1 />
   );
 }
 
