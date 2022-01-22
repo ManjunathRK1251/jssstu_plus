@@ -6,6 +6,7 @@ import FAQSection from "../Components/FAQ/Faq";
 // import "./background_img.css";
 // import navbar_img from "../Images/navbar_bg.jpg";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import LoginSignup from "../LoginPage/login_signup";
 
 export default function Navbar() {
     return (
@@ -21,8 +22,8 @@ export default function Navbar() {
             </div>
             <Routes>
                 <Route exact path='/' element={< HomePage />}></Route>
-                <Route exact path='/life-at-jssstu' element={< LoginPage />}></Route>
-                <Route exact path='/faq' element={<FAQSection/>}></Route>
+                <Route exact path='/life-at-jssstu' element={< LoginSignup />}></Route>
+                <Route exact path='/faq' element={<FAQSection />}></Route>
             </Routes>
         </BrowserRouter>
     );
