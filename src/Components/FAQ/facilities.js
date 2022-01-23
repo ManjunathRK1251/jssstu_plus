@@ -31,7 +31,7 @@ export default function Facilities() {
         <div>
             <img src={JSSSTU_logo} className="JSSSTU-logo" />
             <center>
-                <div className="rectangle">
+                <div className="rectangle-faq">
                     <img src={facilities_blue} />
                 </div>
                 <div className="rectangle-txt">Facilities</div>

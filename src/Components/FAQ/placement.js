@@ -32,7 +32,7 @@ export default function Placement() {
         <div>
             <img src={JSSSTU_logo} className="JSSSTU-logo" />
             <center>
-                <div className="rectangle">
+                <div className="rectangle-faq">
                     <img src={placement} />
                 </div>
                 <div className="rectangle-txt">Placements</div>
