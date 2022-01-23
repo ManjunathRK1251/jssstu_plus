@@ -1,6 +1,16 @@
+
 import "./loginsignup.css";
+import SignUp1 from "./Signup-1";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import history from "../history";
+
+function RouteToSignup1() {
+    history.push('/signup1');
+    window.location.reload();
+}
 
 export default function LoginSignup() {
+
     return (
         <form method="POST">
             <div className="login-page-bg">
@@ -41,9 +51,9 @@ export default function LoginSignup() {
                             &nbsp;&nbsp;&nbsp;start journey with us
                         </p>
                         <p className="desc-2" >
-                        Want to Join?
+                            Want to Join?
                         </p>
-                        <button className="signup-button">Count Me In</button>
+                        <button className="signup-button" onClick={RouteToSignup1}>Count Me In</button>
                     </div>
                 </div>
             </div>

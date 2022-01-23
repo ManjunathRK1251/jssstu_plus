@@ -12,6 +12,8 @@ import General from "./FAQ/General";
 import Placement from "./FAQ/placement";
 import Facilities from "./FAQ/facilities";
 import history from "../history";
+import SignUp1 from "../LoginPage/Signup-1";
+import SignUp2 from "../LoginPage/Signup-2";
 
 export default function Navbar() {
     return (
@@ -33,6 +35,8 @@ export default function Navbar() {
                 <Route exact path='/faq/general-faq' element={<General />}></Route>
                 <Route exact path='/faq/placement-faq' element={<Placement />}></Route>
                 <Route exact path='/faq/facilities-faq' element={<Facilities />}></Route>
+                <Route exact path='/signup1' element={<SignUp1 />}></Route>
+                <Route exact path='/signup2' element={<SignUp2 />}></Route>
             </Routes>
         </BrowserRouter>
     );

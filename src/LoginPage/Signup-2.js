@@ -1,5 +1,9 @@
 import "./Signup-2.css";
 import React from "react";
+import history from "../history";
+
+
+
 export default function SignUp2() {
     return (
         <div className="body">

@@ -1,5 +1,11 @@
 import React from "react";
+import history from "../history";
 import "./Signup-1.css";
+
+function RouteToSignup2() {
+    history.push('/signup2')
+    window.location.reload()
+}
 
 export default function SignUp1() {
     return (
@@ -13,7 +19,7 @@ export default function SignUp1() {
                 id="name"
                 required
             />
-            <button className="button">OK</button>
+            <button className="button" onClick={RouteToSignup2}>OK</button>
         </div>
     );
 }
