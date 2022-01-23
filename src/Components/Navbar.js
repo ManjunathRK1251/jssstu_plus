@@ -11,10 +11,11 @@ import Hostel from "./FAQ/hostel";
 import General from "./FAQ/General";
 import Placement from "./FAQ/placement";
 import Facilities from "./FAQ/facilities";
+import history from "../history";
 
 export default function Navbar() {
     return (
-        <BrowserRouter>
+        <BrowserRouter history={history}>
             <div className="navbar">
                 <div className="flex-row">
                     <Link to="/">Home</Link>
@@ -29,9 +30,9 @@ export default function Navbar() {
                 <Route exact path='/life-at-jssstu' element={< LoginSignup />}></Route>
                 <Route exact path='/faq' element={<FAQSection />}></Route>
                 <Route exact path='/hostel-faq' element={<Hostel />}></Route>
-                <Route exact path='/general-faq' element={<General />}></Route>
-                <Route exact path='/placement-faq' element={<Placement />}></Route>
-                <Route exact path='/facilities-faq' element={<Facilities />}></Route>
+                <Route exact path='/faq/general-faq' element={<General />}></Route>
+                <Route exact path='/faq/placement-faq' element={<Placement />}></Route>
+                <Route exact path='/faq/facilities-faq' element={<Facilities />}></Route>
             </Routes>
         </BrowserRouter>
     );

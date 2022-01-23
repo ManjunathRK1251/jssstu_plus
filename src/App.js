@@ -9,18 +9,19 @@ import FAQSection from "./Components/FAQ/Faq";
 import LoginSignup from "./LoginPage/login_signup";
 import SignUp1 from "./LoginPage/Signup-1";
 import SignUp2 from "./LoginPage/Signup-2";
+import EventsTimeline from "./TimeLine";
 
 function App() {
   return (
     // <div className="home-page">
-    // <Navbar />
+    <Navbar />
     //   {/* <CarouselSlider /> */}
     //   {/* <HomePage /> */}
 
     //   {/* <FAQSection /> */}
 
     //   {/* <LoginPage></LoginPage> */}
-      <LoginSignup></LoginSignup>
+    // <LoginSignup></LoginSignup>
     // </div>
     // <SignUp1 />
     // <SignUp2 />

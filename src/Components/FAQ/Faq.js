@@ -5,8 +5,42 @@ import JSSSTU_logo from "../../Images/JSSSTU_logo.jpg";
 import placement from "../../Images/placement.png";
 import hostel_blue from "../../Images/hostel_blue.png";
 import facilities_blue from "../../Images/facilities_blue.png";
+import history from "../../history";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Hostel from "./hostel";
+import General from "./General";
+import Placement from "./placement";
+import Facilities from "./facilities";
+
+function routeToPlacement() {
+    history.push('/faq/placement-faq');
+    window.location.reload();
+}
+
+function routeToHostel() {
+    history.push('/hostel-faq');
+    window.location.reload();
+}
+
+function routeToFacilities() {
+    history.push('/faq/facilities-faq');
+    window.location.reload();
+}
+
+function routeToGeneral() {
+    history.push('/faq/general-faq');
+    window.location.reload();
+}
+
+
 
 export default function FAQSection() {
+    <Routes>
+        <Route exact path='/faq/hostel-faq' element={<Hostel />}></Route>
+        <Route exact path='/faq/general-faq' element={<General />}></Route>
+        <Route exact path='/faq/placement-faq' element={<Placement />}></Route>
+        <Route exact path='/faq/facilities-faq' element={<Facilities />}></Route>
+    </Routes>
     return (
         <div>
             <img src={JSSSTU_logo} className="JSSSTU-logo" />
@@ -19,7 +53,7 @@ export default function FAQSection() {
             <center className="title">Hi! How can we help you?</center>
             <table>
                 <td>
-                    <div className="rectangle-23">
+                    <div className="rectangle-23" onClick={routeToGeneral}>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="75"
@@ -43,24 +77,24 @@ export default function FAQSection() {
                     <h1>Info</h1>
                 </td>
                 <td>
-                    <div className="rectangle-23">
+                    <div className="rectangle-23" onClick={routeToPlacement}>
                         <img src={placement} />
                     </div>
                     <h1>Placement</h1>
                 </td>
                 <td>
-                    <div className="rectangle-23">
+                    <div className="rectangle-23" onClick={routeToHostel}>
                         <img src={hostel_blue} />
                     </div>
                     <h1>Hostel</h1>
                 </td>
                 <td>
                     <div className="rectangle-23">
-                        <img src={facilities_blue} />
+                        <img src={facilities_blue} onClick={routeToFacilities} />
                     </div>
                     <h1>Facilities</h1>
                 </td>
             </table>
-        </div>
+        </div >
     );
 }
