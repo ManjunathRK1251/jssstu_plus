@@ -100,13 +100,19 @@ details[open] summary:after {
     /* font-size: 2rem; */
 }
 details summary {
+    
     outline: 0;
 }
 details p {
+    border-radius: 10px;
+    background: #f5f5f55d;
     color: #4A4A4A;
     font-size: 35px;
-    margin: 0 0 1rem;
-    padding-top: 1rem;
+    /* margin: 0 0 1rem; */
+    padding: 1rem;
     text-align: center;
-    border-top: 1px solid black;
+    box-shadow: inset 3px 3px 6px #bebebe,
+            inset -3px -3px 6px #f3f3f3;
+    /* 0b89ff8f      */
+    /* border-top: 1px solid black; */
 }

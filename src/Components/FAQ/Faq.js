@@ -18,7 +18,7 @@ function routeToPlacement() {
 }
 
 function routeToHostel() {
-    history.push('/hostel-faq');
+    history.push('hostel-faq');
     window.location.reload();
 }
 
