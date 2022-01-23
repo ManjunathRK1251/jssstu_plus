@@ -1,35 +1,60 @@
-import './Signup-2.css';
+import "./Signup-2.css";
 import React from "react";
 export default function SignUp2() {
     return (
-        <div className="Main-container">
-            <p className="heading1 mail">And what's your email address :</p>
+        <div className="body">
+            <h1 className="h1">And what's your email address :</h1>
             <input
-                type="email"
+                type="text"
                 name="email"
                 placeholder="Email"
                 className="input"
-                id="name"
+                id="email"
                 required
             />
-            {/* <p className="heading1 pw">Type your password here ^_^ :</p>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <h1 className="h1">Type your password here ^_^ :</h1>
             <input
-                type="password"
+                type="text"
                 name="password"
                 placeholder="Enter your Password"
                 className="input"
                 id="name"
                 required
             />
-            <p className="heading1 pw2">Okay, type your password once again:</p>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <h1 className="h1">Okay, type your password once again:</h1>
+            <p className="p">
+                The password here should be same as the above password
+            </p>
             <input
-                type="password"
+                type="text"
                 name="password"
                 placeholder="Re-Enter your Password"
                 className="input"
                 id="name"
                 required
-            /> */}
+            />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <p className="p">
+                That’s it!! Are you ready to start your new journey??
+            </p>
+            <button className="button">Let’s go !!</button>
         </div>
     );
 }
