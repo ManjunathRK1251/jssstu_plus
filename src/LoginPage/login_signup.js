@@ -1,13 +1,10 @@
-import './loginsignup.css';
+import "./loginsignup.css";
 
 export default function LoginSignup() {
     return (
-
         <form method="POST">
             <div className="login-page-bg">
                 <div className="container" id="container">
-
-
                     <div className="sign-in-container">
                         <p className="email-text">EMAIL:</p>
                         <div className="email">
@@ -27,35 +24,29 @@ export default function LoginSignup() {
                                 required
                             />
                         </div>
-                        <button className="fill">
-                            Login
-                        </button>
+                        <button className="fill">Login</button>
                     </div>
-                    <div className="form-container">
-
-                    </div>
+                    <div className="form-container"></div>
                     <div className="overlay-container">
-                        <div className="overlay">
-
-                        </div>
+                        <div className="overlay"></div>
                     </div>
 
                     <div>
                         <div className="heading2">
                             <h2>Hello Student</h2>
                         </div>
-                        <p className='desc' align="justify">Create your account and<br />&nbsp;&nbsp;&nbsp;start journey with us</p>
-                        <button className="signup-button">
-                            Sign up
-                        </button>
+                        <p className="desc" align="justify">
+                            Create your account and
+                            <br />
+                            &nbsp;&nbsp;&nbsp;start journey with us
+                        </p>
+                        <p className="desc-2" >
+                        Want to Join?
+                        </p>
+                        <button className="signup-button">Count Me In</button>
                     </div>
-
                 </div>
             </div>
         </form>
     );
 }
-
-
-
-

@@ -20,10 +20,10 @@ function App() {
     //   {/* <FAQSection /> */}
 
     //   {/* <LoginPage></LoginPage> */}
-    //   {/* <LoginSignup></LoginSignup> */}
+      <LoginSignup></LoginSignup>
     // </div>
     // <SignUp1 />
-    <SignUp2 />
+    // <SignUp2 />
   );
 }
 
