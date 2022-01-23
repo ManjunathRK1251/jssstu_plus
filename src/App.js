@@ -8,11 +8,12 @@ import Navbar from "./Components/Navbar";
 import FAQSection from "./Components/FAQ/Faq";
 import LoginSignup from "./LoginPage/login_signup";
 import SignUp1 from "./LoginPage/Signup-1";
+import SignUp2 from "./LoginPage/Signup-2";
 
 function App() {
   return (
     // <div className="home-page">
-    //   <Navbar />
+    // <Navbar />
     //   {/* <CarouselSlider /> */}
     //   {/* <HomePage /> */}
 
@@ -21,7 +22,8 @@ function App() {
     //   {/* <LoginPage></LoginPage> */}
     //   {/* <LoginSignup></LoginSignup> */}
     // </div>
-    <SignUp1 />
+    // <SignUp1 />
+    <SignUp2 />
   );
 }
 
