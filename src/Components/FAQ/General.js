@@ -33,7 +33,7 @@ export default function General() {
         <div>
             <img src={JSSSTU_logo} className="JSSSTU-logo" />
             <center>
-                <div className="rectangle">
+                <div className="rectangle-faq">
                     <img src={general} />
                 </div>
                 <div className="rectangle-txt">General</div>

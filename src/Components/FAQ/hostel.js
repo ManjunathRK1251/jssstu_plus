@@ -28,7 +28,7 @@ export default function Hostel() {
         <div>
             <img src={JSSSTU_logo} className="JSSSTU-logo" />
             <center>
-                <div className="rectangle">
+                <div className="rectangle-faq">
                     <img src={hostel_blue} />
                 </div>
                 <div className="rectangle-txt">Hostel</div>
