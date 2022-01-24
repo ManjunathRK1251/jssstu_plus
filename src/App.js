@@ -10,11 +10,12 @@ import LoginSignup from "./LoginPage/login_signup";
 import SignUp1 from "./LoginPage/Signup-1";
 import SignUp2 from "./LoginPage/Signup-2";
 import EventsTimeline from "./TimeLine";
+import Placement1 from "./Placement/Placement1";
 
 function App() {
   return (
     // <div className="home-page">
-    <Navbar />
+    // <Navbar />
     //   {/* <CarouselSlider /> */}
     //   {/* <HomePage /> */}
 
@@ -25,6 +26,7 @@ function App() {
     // </div>
     // <SignUp1 />
     // <SignUp2 />
+    <Placement1 />
   );
 }
 
