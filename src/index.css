@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
-  /* background-color: #f7f7f7; */
-  background-color: white;
+  background-color: #f7f7f7;
+  /* background-color: white; */
   overflow: auto;
   height: 100%;
 }
