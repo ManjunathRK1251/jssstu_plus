@@ -1,6 +1,6 @@
 import React from "react";
 import history from "../history";
-import "./Signup-1.css";
+import "./Signup-2.css";
 
 function RouteToSignup2() {
     history.push('/signup2')

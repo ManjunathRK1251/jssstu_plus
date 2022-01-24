@@ -2,14 +2,12 @@ import "./Signup-2.css";
 import React from "react";
 import history from "../history";
 
-
-
 export default function SignUp2() {
     return (
         <div className="body">
             <h1 className="h1">And what's your email address :</h1>
             <input
-                type="text"
+                type="email"
                 name="email"
                 placeholder="Email"
                 className="input"
@@ -24,11 +22,11 @@ export default function SignUp2() {
             <br />
             <h1 className="h1">Type your password here ^_^ :</h1>
             <input
-                type="text"
+                type="password"
                 name="password"
                 placeholder="Enter your Password"
                 className="input"
-                id="name"
+                id="password"
                 required
             />
             <br />
@@ -42,11 +40,11 @@ export default function SignUp2() {
                 The password here should be same as the above password
             </p>
             <input
-                type="text"
+                type="password"
                 name="password"
                 placeholder="Re-Enter your Password"
                 className="input"
-                id="name"
+                id="confirm-password"
                 required
             />
             <br />
