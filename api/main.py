@@ -188,8 +188,8 @@ def findall(email):
 
 if __name__ == "__main__":
     #TODO scheduling scrapping call
-    # scheduler.add_job(id="Instagram Scrapping",func=events,trigger='interval',days=1)
-    # scheduler.start()
+    scheduler.add_job(id="Instagram Scrapping",func=events,trigger='interval',days=1)
+    scheduler.start()
     # Shut down the scheduler when exiting the app
     # atexit.register(lambda: scheduler.shutdown())
     # TODO Valid return statements for all routes
