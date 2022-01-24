@@ -1,37 +1,65 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Timeline from 'react-image-timeline';
-require('react-image-timeline/dist/timeline.css'); // .scss also available
+import React from "react";
+import ReactDOM from "react-dom";
+import Timeline from "react-image-timeline";
+require("react-image-timeline/dist/timeline.css"); // .scss also available
 
 const events = [
     {
-        date: new Date(2014, 9, 27),
-        text: "Sed leo elit, pellentesque sit amet congue quis, ornare nec lorem.",
-        title: "Cairo, Egypt",
-        buttonText: 'Click Me',
-        imageUrl: "http://github.com/aaron9000/react-image-timeline/blob/master/src/assets/cairo.jpg?raw=true",
+        date: new Date(2021, 12, 27),
+        text: "Photo by LCC-SJCE on December 26, 2021. May be an image of text that says 'JSS TECHNOLOGY LINUX CAMPUS CLUB CONNINECT Quantum Computing By Srivatsa Joshi Quantum computers The future.",
+        title: "Quantum Computers - The future",
+        buttonText: "Click Me",
+        club: "linuxcampusclub",
+        imageUrl: "https://www.instagram.com/p/CX-l4PrLgAJ/",
         onClick: console.log,
     },
     {
-        date: new Date(2014, 9, 27),
-        text: "Sed leo elit, pellentesque sit amet congue quis, ornare nec lorem.",
-        title: "Cairo, Egypt",
-        buttonText: 'Click Me',
-        imageUrl: "http://github.com/aaron9000/react-image-timeline/blob/master/src/assets/cairo.jpg?raw=true",
+        date: new Date(2021, 12, 24),
+        text: "'JSS JSS SCIENCE AND TECHNOLOGY UNIVERSITY DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING LINUX CLUB CAMPUS presents FOSSCAMP 26TH DEC- CODE CON 27TH DEC- TRACKBACK 29TH -31ST DECRYPTO 28TH DEC SPIDER WEB 30TH DEC BERMUDA TRIANGLE 31ST DEC 2ND JAN VIVECHAN PARTICIPATE FOR FREE AND WIN CASH PRIZES UPTO 10K!",
+        title: "Foss Camp",
+        buttonText: "Click Me",
+        club: "linuxcampusclub",
+        imageUrl: "https://www.instagram.com/p/CX3ECE-LLNW/",
         onClick: console.log,
     },
     {
-        date: new Date(2014, 9, 27),
-        text: "Sed leo elit, pellentesque sit amet congue quis, ornare nec lorem.",
-        title: "Cairo, Egypt",
-        buttonText: 'Click Me',
-        imageUrl: "http://github.com/aaron9000/react-image-timeline/blob/master/src/assets/cairo.jpg?raw=true",
+        date: new Date(2021, 12, 23),
+        text: "Photo by LCC-SJCE on December 23, 2021. May be an image of aircraft and text",
+        title: "Flying Coffins - MIG 29",
+        buttonText: "Click Me",
+        club: "linuxcampusclub",
+        imageUrl: "https://www.instagram.com/p/CX0h3IohBwB/",
         onClick: console.log,
-    }
+    },
+    {
+        date: new Date(2022, 1, 19),
+        text: "JSS JSS Science and Technology University Department of Computer Science and Engineering Google Developer Student Clubs 7 Days of DSA An ultimate roadmap to kickstart your Data Structures and Algorithms Journey 20th Jan 26th Jan ",
+        title: "7 Days of DSA",
+        buttonText: "Click Me",
+        club: "gdscjssstu",
+        imageUrl: "https://www.instagram.com/p/CY6bCMrBKd1/",
+        onClick: console.log,
+    },
+    {
+        date: new Date(2021, 12, 30),
+        text: "JSS SCIENCEND JSS Science and Technology University Department of Computer Science and Engineering Google Gol Developer Student Clubs Greetings from GDSC JSSSTU MKWIGMERY Want to be a member of the most talked-about global community for students? If yes, this is your chance!'",
+        title: "Chance to become a member of GDSC JSSSTU",
+        buttonText: "Click Me",
+        club: "gdscjssstu",
+        imageUrl: "https://www.instagram.com/p/CYHGPkRB7w6/",
+        onClick: console.log,
+    },
+    {
+        date: new Date(2021, 11, 23),
+        text: "JSS SCIENCEL JSS Science and Technology University Department of Computer Science and Engineering Google Go Developer XO Explore ML Experience the Machine Experiencing! GDSC brings to you two day event where you get to learn the high on demand and extremely informative skill of today Machine Learning. 27th of November, 2:30 PM to 5:30 PM & 28th November, 11 AM to 5:30 PM Pre-requisites Basics of Python and lot of enthusiasm to learn!'",
+        title: "Explore ML",
+        buttonText: "Click Me",
+        club: "gdscjssstu",
+        imageUrl: "https://www.instagram.com/p/CWn2SSNDMqY/",
+        onClick: console.log,
+    },
 ];
 
 export default function EventsTimeline() {
-    return (
-        <Timeline events={events} />
-    );
+    return <Timeline events={events} />;
 }
