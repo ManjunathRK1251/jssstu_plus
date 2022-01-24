@@ -15,7 +15,7 @@ import Placement1 from "./Placement/Placement1";
 function App() {
   return (
     // <div className="home-page">
-    // <Navbar />
+    <Navbar />
     //   {/* <CarouselSlider /> */}
     //   {/* <HomePage /> */}
 
@@ -26,7 +26,7 @@ function App() {
     // </div>
     // <SignUp1 />
     // <SignUp2 />
-    <Placement1 />
+    // <Placement1 />
   );
 }
 
