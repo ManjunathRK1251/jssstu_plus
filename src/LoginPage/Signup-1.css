@@ -1,4 +1,4 @@
-/* * {
+* {
     margin: 0;
 }
 
@@ -6,25 +6,25 @@ body {
     margin: 0;
 }
 
-.body {
+.body-1 {
     background-color: rgba(255, 95, 0, 0.45);
     margin: 0;
     height: 100vh;
-    justify-content: center;
 }
 
-.h1 {
+.h1-1 {
     font-size: 70px;
     font-weight: 700;
-    text-align: center;
+    text-align: left;
+    margin-left: 120px;
+    top: 40%;
 }
 
-.input {
+.input-1 {
     position: relative;
     display: table;
-    margin-left: auto;
-    margin-right: auto;
-    top: 220px;
+    margin-left: 120px;
+    top: 42%;
     background: None;
     width: 50%;
     border: 0;
@@ -34,28 +34,28 @@ body {
     color: rgba(0, 0, 0, 0.54);
     padding: 7px 0;
     font-family: sans-serif;
-    text-align: center;
-    align-items: center;
+    text-align: left;
+    align-items: left;
 }
 
-.button {
+.button-1 {
     position: relative;
     display: table;
-    margin-left: auto;
-    margin-right: auto;
-    top: 250px;
+    margin-left: 150px;
+    top: 50%;
     background: rgba(238, 208, 190, 0.53);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     cursor: pointer;
     color: rgba(0, 0, 0, 0.74);
     font-weight: 600;
+    align-items: left;
 }
 
-.button:hover,
-.button:focus {
+.button-1:hover,
+.button-1:focus {
     background-color: rgba(235, 183, 151, 0.53);
 }
 
 .email {
     font-size: 30px;
-} */
+}
