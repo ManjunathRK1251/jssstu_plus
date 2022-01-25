@@ -10,13 +10,13 @@ import LoginSignup from "./LoginPage/login_signup";
 import SignUp1 from "./LoginPage/Signup-1";
 import SignUp2 from "./LoginPage/Signup-2";
 import EventsTimeline from "./TimeLine";
-import Placement2 from "./Placement/Placement2";
+import Placement4 from "./Placement/Placement4";
 import PlacementCarousel from "./Placement/Placement_Carousel";
 
 function App() {
   return (
     // <div className="home-page">
-    <Navbar />
+    // <Navbar />
     //   {/* <CarouselSlider /> */}
     //   {/* <HomePage /> */}
 
@@ -27,7 +27,7 @@ function App() {
     // </div>
     // <SignUp1 />
     // <SignUp2 />
-    // <Placement2 />
+    <Placement4 />
     // <EventsTimeline />
   );
 }
