@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import vmware from "../Images/vmware_logo.png"
 import deloitte from "../Images/Deloitte.png"
 import wd from "../Images/Western_Digital_logo.png"
@@ -5,10 +6,12 @@ import wd from "../Images/Western_Digital_logo.png"
 import bg from "../Images/placement_2.jpg";
 import Placement1_bg from "../Images/placement1.jpg";
 import "./Placement1.css";
+import JSSSTU_logo from "../Images/JSSSTU_logo.jpg";
 
 export default function Placement1() {
     return (
         <div className="Placement1">
+            <img src={JSSSTU_logo} className="JSSSTU-logo" />
             <table>
                 <td>
                     <div className="placement-rect">

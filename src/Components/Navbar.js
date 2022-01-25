@@ -21,11 +21,11 @@ export default function Navbar() {
         <BrowserRouter history={history}>
             <div className="navbar">
                 <div className="flex-row">
-                    <Link to="/">Home</Link>
+                    <Link to="/" className="a">Home</Link>
                     {/* <Link to="/academic">Academic</Link> */}
-                    <Link to="/placement">Placement</Link>
-                    <Link to="/life-at-jssstu">Life at JSSSTU</Link>
-                    <Link to="/faq">FAQ</Link>
+                    <Link to="/placement" className="a">Placement</Link>
+                    <Link to="/life-at-jssstu" className="a">Life at JSSSTU</Link>
+                    <Link to="/faq" className="a">FAQ</Link>
                 </div>
             </div>
             <Routes>

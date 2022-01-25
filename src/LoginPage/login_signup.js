@@ -53,7 +53,9 @@ export default function LoginSignup() {
                         <p className="desc-2" >
                             Want to Join?
                         </p>
-                        <button className="signup-button" onClick={RouteToSignup1}>Count Me In</button>
+                        <Link to='/signup1'>
+                            <button className="signup-button">Count Me In</button>
+                        </Link>
                     </div>
                 </div>
             </div>
