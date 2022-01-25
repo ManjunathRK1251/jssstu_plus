@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -22,9 +22,10 @@ html{
     width: 675px;
     height: 332px;
     left: 50px;
-    top: 36%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* top: 36%; */
     overflow-y: scroll;
-
     background: #45abf4;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     border-radius: 58px;
@@ -41,11 +42,24 @@ html{
     color: white;
 }
 
+.placement2-h2 {
+    top: 30px;
+    font-weight: bolder;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 50px;
+    cursor: text;
+    color: white;
+    font-family: Rubik, sans-serif;
+}
+
 .placement2-p {
     position: absolute;
     /* top: 55px; */
     left: 50px;
-    margin-top: 45px;
+    margin-top: 35px;
+    padding-bottom: 45px;
     margin-right: 15px;
     /* margin: 0; */
     font-size: 24px;
@@ -53,4 +67,5 @@ html{
     font-weight: 600;
     color: white;
     text-indent: 25px;
+    text-align: left;
 }
