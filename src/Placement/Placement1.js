@@ -8,7 +8,15 @@ import Placement1_bg from "../Images/placement1.jpg";
 import "./Placement1.css";
 import JSSSTU_logo from "../Images/JSSSTU_logo.jpg";
 
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Placement2 from "./Placement2";
+
 export default function Placement1() {
+
+    <Routes>
+
+    </Routes>
+
     return (
         <div className="Placement1">
             <img src={JSSSTU_logo} className="JSSSTU-logo" />
@@ -27,9 +35,11 @@ export default function Placement1() {
                     </div>
                 </td>
                 <td>
-                    <div className="placement-rect">
-                        <img className="wd" src={wd} />
-                    </div>
+                    <Link to="/placement/western-digital">
+                        <div className="placement-rect">
+                            <img className="wd" src={wd} />
+                        </div>
+                    </Link>
                 </td>
             </table >
             <img className="placement1-bg" src={Placement1_bg} />

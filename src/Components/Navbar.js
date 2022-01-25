@@ -15,6 +15,8 @@ import history from "../history";
 import SignUp1 from "../LoginPage/Signup-1";
 import SignUp2 from "../LoginPage/Signup-2";
 import Placement1 from "../Placement/Placement1";
+import EventsTimeline from "../TimeLine";
+import Placement2 from "../Placement/Placement2";
 
 export default function Navbar() {
     return (
@@ -31,7 +33,8 @@ export default function Navbar() {
             <Routes>
                 <Route exact path='/' element={< HomePage />}></Route>
                 <Route exact path='/placement' element={<Placement1 />}></Route>
-                <Route exact path='/life-at-jssstu' element={< LoginSignup />}></Route>
+                {/* <Route exact path='/life-at-jssstu' element={< LoginSignup />}></Route> */}
+                <Route exact path='/life-at-jssstu' element={< EventsTimeline />}></Route>
                 <Route exact path='/faq' element={<FAQSection />}></Route>
                 <Route exact path='/hostel-faq' element={<Hostel />}></Route>
                 <Route exact path='/faq/general-faq' element={<General />}></Route>
@@ -39,6 +42,7 @@ export default function Navbar() {
                 <Route exact path='/faq/facilities-faq' element={<Facilities />}></Route>
                 <Route exact path='/signup1' element={<SignUp1 />}></Route>
                 <Route exact path='/signup2' element={<SignUp2 />}></Route>
+                <Route exact path='/placement/western-digital' element={<Placement2 />}></Route>
             </Routes>
         </BrowserRouter>
     );

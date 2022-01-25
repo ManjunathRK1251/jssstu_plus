@@ -7,6 +7,7 @@ import fosscamp from "./Images/Timeline/fosscamp.jpg";
 import Flying_coffins from "./Images/Timeline/Flying_coffins.jpg";
 import member_gdsc from "./Images/Timeline/member_gdsc.jpg";
 import explore_ML from "./Images/Timeline/explore_ML.jpg";
+import "./Timeline.css";
 
 require("react-image-timeline/dist/timeline.css");
 
@@ -68,5 +69,5 @@ const events = [
 ];
 
 export default function EventsTimeline() {
-    return <Timeline events={events} />;
+    return <Timeline events={events} className="timeline" />;
 }
