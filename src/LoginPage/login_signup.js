@@ -14,6 +14,9 @@ export default function LoginSignup() {
     return (
         <form method="POST">
             <div className="login-page-bg">
+                <div className="rectangle-SQ">
+                    <h3>Explore</h3>
+                </div>
                 <div className="container" id="container">
                     <div className="sign-in-container">
                         <p className="email-text">EMAIL:</p>
