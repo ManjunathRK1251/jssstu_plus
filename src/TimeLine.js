@@ -1,7 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Timeline from "react-image-timeline";
-require("react-image-timeline/dist/timeline.css"); // .scss also available
+import Timeline from "react-image-timeline"; // .scss also available
+import days_DSA from "./Images/Timeline/7_days_DSA.jpg";
+import Quantum_computing from "./Images/Timeline/Quantum_computers.jpg";
+import fosscamp from "./Images/Timeline/fosscamp.jpg";
+import Flying_coffins from "./Images/Timeline/Flying_coffins.jpg";
+import member_gdsc from "./Images/Timeline/member_gdsc.jpg";
+import explore_ML from "./Images/Timeline/explore_ML.jpg";
+
+require("react-image-timeline/dist/timeline.css");
 
 const events = [
     {
@@ -10,7 +17,7 @@ const events = [
         title: "Quantum Computers - The future",
         buttonText: "Click Me",
         club: "linuxcampusclub",
-        imageUrl: "https://www.instagram.com/p/CX-l4PrLgAJ/",
+        imageUrl: Quantum_computing,
         onClick: console.log,
     },
     {
@@ -19,7 +26,7 @@ const events = [
         title: "Foss Camp",
         buttonText: "Click Me",
         club: "linuxcampusclub",
-        imageUrl: "https://www.instagram.com/p/CX3ECE-LLNW/",
+        imageUrl: fosscamp,
         onClick: console.log,
     },
     {
@@ -28,7 +35,7 @@ const events = [
         title: "Flying Coffins - MIG 29",
         buttonText: "Click Me",
         club: "linuxcampusclub",
-        imageUrl: "https://www.instagram.com/p/CX0h3IohBwB/",
+        imageUrl: Flying_coffins,
         onClick: console.log,
     },
     {
@@ -37,7 +44,7 @@ const events = [
         title: "7 Days of DSA",
         buttonText: "Click Me",
         club: "gdscjssstu",
-        imageUrl: "https://www.instagram.com/p/CY6bCMrBKd1/",
+        imageUrl: days_DSA,
         onClick: console.log,
     },
     {
@@ -46,7 +53,7 @@ const events = [
         title: "Chance to become a member of GDSC JSSSTU",
         buttonText: "Click Me",
         club: "gdscjssstu",
-        imageUrl: "https://www.instagram.com/p/CYHGPkRB7w6/",
+        imageUrl: member_gdsc,
         onClick: console.log,
     },
     {
@@ -55,7 +62,7 @@ const events = [
         title: "Explore ML",
         buttonText: "Click Me",
         club: "gdscjssstu",
-        imageUrl: "https://www.instagram.com/p/CWn2SSNDMqY/",
+        imageUrl: explore_ML,
         onClick: console.log,
     },
 ];

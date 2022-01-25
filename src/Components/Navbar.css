@@ -29,7 +29,7 @@
     z-index: 1;
 }
 
-a {
+.a {
     font-size: 25px;
     font-family: Roboto, sans-serif;
     font-weight: 700;
@@ -61,7 +61,7 @@ a {
     /* background-size: initial; */
 }
 
-a:hover {
+.a:hover {
     /* color: white; */
     font-size: 30px;
     text-decoration: underline;
