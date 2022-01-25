@@ -15,7 +15,7 @@ export default function Placement4() {
                         <br />
                         <br />
                         <h2 className="placement2-h2">
-                            Company placed: DEOlite
+                            Company placed: Deloitte
                         </h2>
                         <p className="placement2-p">
                             The presentation was quite in detail. They covered
@@ -52,7 +52,7 @@ export default function Placement4() {
                         <br />
                         <br />
                         <h2 className="placement2-h2">
-                            Company placed: DEOlite
+                            Company placed: Deloitte
                         </h2>
                         <p className="placement2-p">
                             The presentation was quite in detail. They covered

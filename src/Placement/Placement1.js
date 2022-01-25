@@ -13,27 +13,29 @@ import Placement2 from "./Placement2";
 
 export default function Placement1() {
 
-    <Routes>
-
-    </Routes>
 
     return (
         <div className="Placement1">
             <img src={JSSSTU_logo} className="JSSSTU-logo" />
             <table>
                 <td>
-                    <div className="placement-rect">
-                        <center>
-                            <img className="vmware" src={vmware} />
-                        </center>
+                    <Link to="/placement/vmware">
+                        <div className="placement-rect">
+                            <center>
+                                <img className="vmware" src={vmware} />
+                            </center>
 
-                    </div>
+                        </div>
+                    </Link>
                 </td>
                 <td>
-                    <div className="placement-rect">
-                        <img className="deloitte" src={deloitte} />
-                    </div>
+                    <Link to="/placement/deloitte">
+                        <div className="placement-rect">
+                            <img className="deloitte" src={deloitte} />
+                        </div>
+                    </Link>
                 </td>
+
                 <td>
                     <Link to="/placement/western-digital">
                         <div className="placement-rect">

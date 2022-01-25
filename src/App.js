@@ -16,7 +16,7 @@ import PlacementCarousel from "./Placement/Placement_Carousel";
 function App() {
   return (
     // <div className="home-page">
-    // <Navbar />
+    <Navbar />
     //   {/* <CarouselSlider /> */}
     //   {/* <HomePage /> */}
 
@@ -27,7 +27,7 @@ function App() {
     // </div>
     // <SignUp1 />
     // <SignUp2 />
-    <Placement4 />
+    // <Placement4 />
     // <EventsTimeline />
   );
 }
