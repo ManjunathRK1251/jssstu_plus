@@ -33,8 +33,8 @@ export default function Navbar() {
             <Routes>
                 <Route exact path='/' element={< HomePage />}></Route>
                 <Route exact path='/placement' element={<Placement1 />}></Route>
-                {/* <Route exact path='/life-at-jssstu' element={< LoginSignup />}></Route> */}
-                <Route exact path='/life-at-jssstu' element={< EventsTimeline />}></Route>
+                <Route exact path='/life-at-jssstu' element={< LoginSignup />}></Route>
+                <Route exact path='/life-at-jssstu/explore' element={< EventsTimeline />}></Route>
                 <Route exact path='/faq' element={<FAQSection />}></Route>
                 <Route exact path='/hostel-faq' element={<Hostel />}></Route>
                 <Route exact path='/faq/general-faq' element={<General />}></Route>
